@@ -428,12 +428,12 @@ GameObject:
   - component: {fileID: 150211898}
   - component: {fileID: 150211897}
   - component: {fileID: 150211896}
+  - component: {fileID: 150211901}
   - component: {fileID: 150211895}
   - component: {fileID: 150211900}
-  - component: {fileID: 150211901}
   m_Layer: 11
   m_Name: Goober (Enemy)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24150,7 +24150,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 29.598606, y: -3.0524387, z: -10}
+  m_LocalPosition: {x: 24.66861, y: -3.057496, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24217,7 +24217,7 @@ Transform:
   m_GameObject: {fileID: 592987330}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.794111, y: -9.442744, z: -9.890069}
+  m_LocalPosition: {x: 22.86411, y: -9.442744, z: -9.890069}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24730,7 +24730,7 @@ Transform:
   m_GameObject: {fileID: 1424971247}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.794111, y: -9.442744, z: -9.890069}
+  m_LocalPosition: {x: 22.86411, y: -9.442744, z: -9.890069}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24781,7 +24781,7 @@ Transform:
   m_GameObject: {fileID: 1504957663}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 27.794111, y: -9.442744, z: -9.890069}
+  m_LocalPosition: {x: 22.86411, y: -9.442744, z: -9.890069}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25574,7 +25574,7 @@ PrefabInstance:
       objectReference: {fileID: 6200000, guid: d69efc262f93a1741b5ea9a248b6f62b, type: 2}
     - target: {fileID: 1125422130962484620, guid: 7355b10e92c5d684cb58503c96f0175b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 29.6
+      value: 24.67
       objectReference: {fileID: 0}
     - target: {fileID: 1125422130962484620, guid: 7355b10e92c5d684cb58503c96f0175b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -25651,6 +25651,14 @@ PrefabInstance:
     - target: {fileID: 6227615545226193838, guid: 7355b10e92c5d684cb58503c96f0175b, type: 3}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8169447622616461467, guid: 7355b10e92c5d684cb58503c96f0175b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.259
+      objectReference: {fileID: 0}
+    - target: {fileID: 8169447622616461467, guid: 7355b10e92c5d684cb58503c96f0175b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.072
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
