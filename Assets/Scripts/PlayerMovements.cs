@@ -7,7 +7,7 @@ using UnityEngine.InputSystem;
 public class PlayerMovements : MonoBehaviour
 {
     [SerializeField] float runSpeed = 10f;
-    [SerializeField] float jumpSpeed = 5f;
+    [SerializeField] float jumpSpeed = 15f;
     [SerializeField] float climbSpeed = 5f;
     [SerializeField] Vector2 deathKick = new Vector2(10f, 10f);
     [SerializeField] GameObject bullet;
@@ -105,6 +105,7 @@ public class PlayerMovements : MonoBehaviour
             isAlive = false;
             myAnimator.SetTrigger("Dying");
             myRigidbody.velocity = deathKick;
+            FindObjectOfType<GameSession>().ProcessPlayerDeath();
         }
     }
 
